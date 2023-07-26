@@ -33,7 +33,8 @@ char *read_hist(information_s *info)
 int create_history(information_s *info)
 {
 	ssize_t fd;
-	char *filename = read_hist(info);
+	char *filen
+		filename = read_hist(info);
 	list_stru *node = NULL;
 
 	if (!filename)
